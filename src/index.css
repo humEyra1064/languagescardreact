@@ -6,3 +6,12 @@
 body{
   background-color: #f4d467;
 }
+.lang-card:hover{
+  box-shadow: 3px 3px 20px 5px red;
+}
+.lang-logo{
+  transition: transform 0.2s;
+}
+.lang-card:hover .lang-logo{
+  transform: scale(1.2);
+}
