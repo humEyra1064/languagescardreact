@@ -1,5 +1,7 @@
-
-// import './App.css';
+import './App.css';
+import { Container } from 'react-bootstrap';
+import Header from "./components/Header";
+import Card from "./components/Card";
 
 
 
@@ -7,10 +9,14 @@ function App() {
    
   
   return (
-   
-   <div className="App">
+<Container className='text-center mt-4 p-4'> 
 
-   </div>
+  <Header/>
+  <Card/>
+  
+
+</Container>
+
 
   );
 }
