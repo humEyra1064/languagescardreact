@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <Container className="rounded-4 mt-4 p-4" style={{background:"#f48b29"}}>
       <h1 className="text-white my-2">Language</h1>
-      <Row>
+      <Row className="g-3">
         {data.map((lang)=>{
           return(
       <Col sm={6} md={4} lg={3}>
